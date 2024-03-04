@@ -1,5 +1,6 @@
 import React from "react";
 import { Box, Container, Heading, Button, VStack } from "@chakra-ui/react";
+import FruitSlot from "../components/FruitSlot";
 
 const SlotMachine = () => {
   return (
@@ -8,7 +9,8 @@ const SlotMachine = () => {
         <Heading as="h1" size="2xl" textAlign="center">
           Slot Machine Game
         </Heading>
-        <Box textAlign="center">
+        <FruitSlot />
+        <Box textAlign="center" mt={8}>
           <Button colorScheme="blue" size="lg">
             Spin
           </Button>
